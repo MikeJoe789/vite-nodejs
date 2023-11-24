@@ -1,0 +1,20 @@
+{
+    "articles": [
+      {
+        "articleId": 1,
+        "articleName": "Introduction to JSON",
+        "articleContent": "JSON (JavaScript Object Notation) is a lightweight data-interchange format..."
+      },
+      {
+        "articleId": 2,
+        "articleName": "Working with JSON in Python",
+        "articleContent": "In Python, you can use the 'json' module to work with JSON data..."
+      },
+      {
+        "articleId": 3,
+        "articleName": "Best Practices for JSON API Design",
+        "articleContent": "When designing JSON APIs, it's important to follow best practices for a consistent and user-friendly experience..."
+      }
+    ]
+  }
+  

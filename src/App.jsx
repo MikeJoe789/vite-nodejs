@@ -1,5 +1,6 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
-import './App.css'
+import './App.scss'
+import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Article from './pages/Article'
 import ArticleList from './pages/ArticleList'
@@ -10,9 +11,8 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App">
-        <h1>My Blog</h1>  
-        <p>Welcome to my blog</p>
+      <div className="app">
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
